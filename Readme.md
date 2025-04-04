@@ -25,11 +25,17 @@ go run ./cmd
 - `Visualization`: Terminal-based with live (`X`) and dead (`.`) cells
 - `Generations`: Runs for 1_000 generations or until manually terminated
 
+### Demo
+
+![Conway's Game of Life Demo](docs/demo.gif)
+
 ## Project Structure
 ```
 game-of-life/
 ├── cmd/
 │   └── main.go       # Main entry point
+├── docs/
+│   └── demo.gif      # GIF animation of the app
 ├── Makefile          # Quick commands
 ├── go.mod            # Go module file
 └── Readme.md         # Project overview and instructions
